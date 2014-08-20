@@ -1,0 +1,1 @@
+Extend the Plone Event Contentype

@@ -1,0 +1,3 @@
+/* <dtml-with base_properties> */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())">*/
+/* fix the peekaboo issue for IE 6 + 7 */

@@ -1,0 +1,31 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+	xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+	xmlns:cmf="http://namespaces.zope.org/cmf"
+	xmlns:i18n="http://namespaces.zope.org/i18n"
+	i18n_domain="Products.eventextender">
+           
+  <genericsetup:registerProfile
+    name="default"
+    title="EventExtender"
+    directory="profiles/default"
+    description="Adds extra fields to ATEvent."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    />
+    
+  <genericsetup:registerProfile
+    name="uninstall"
+    title="EventExtender Uninstall"
+    directory="profiles/uninstall"
+    description="Removes the extra fields from Event."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    />
+   
+  <cmf:registerDirectory name="eventextender"/>
+
+  <include package="archetypes.schemaextender" />
+  <adapter factory=".extender.eventsImageExtender"
+           provides="archetypes.schemaextender.interfaces.ISchemaExtender" />
+
+</configure>

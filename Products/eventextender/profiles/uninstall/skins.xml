@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object name="portal_skins" meta_type="Plone Skins Tool">
+  <object name="EventExtender" meta_type="Filesystem Directory View"
+    directory="eventextender/skins/eventextender" />
+  <skin-path name="*">
+    <layer name="OfficeHoursExtender" insert-after="custom" />
+  </skin-path>
+</object>

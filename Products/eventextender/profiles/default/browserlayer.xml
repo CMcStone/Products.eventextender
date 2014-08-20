@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Products.eventextender"
+           interface="Products.eventextender.interfaces.IEventExtenderLayer" />
+</layers>

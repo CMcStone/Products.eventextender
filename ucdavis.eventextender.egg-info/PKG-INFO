@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: Products.eventextender
+Version: 1.0dev
+Summary: Adds additional fields to the plone ATEvent Type
+Home-page: UNKNOWN
+Author: Carol McMasters-Stone
+Author-email: cbeck@Products.edu
+License: GPL
+Description: UNKNOWN
+Keywords: plone zope event
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

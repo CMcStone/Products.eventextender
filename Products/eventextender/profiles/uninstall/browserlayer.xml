@@ -1,0 +1,5 @@
+<layers>
+    <layer name="Products.eventextender"
+           purge="true"
+           interface="Products.eventextender.interfaces.IEventExtenderLayer" />
+</layers>
