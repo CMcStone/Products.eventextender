@@ -3,6 +3,6 @@
   <object name="EventExtender" meta_type="Filesystem Directory View"
     directory="eventextender/skins/eventextender" />
   <skin-path name="*">
-    <layer name="OfficeHoursExtender" insert-after="custom" />
+    <layer name="IEventExtenderLayer" insert-after="custom" />
   </skin-path>
 </object>

@@ -11,5 +11,5 @@ Products.eventextender.egg-info/not-zip-safe
 Products.eventextender.egg-info/requires.txt
 Products.eventextender.egg-info/top_level.txt
 Products/eventextender/__init__.py
-Products/eventextender/exender.py
+Products/eventextender/extender.py
 Products/eventextender/interfaces.py
